@@ -286,13 +286,14 @@ footer {
 
 /*------------------------------------phonetic-----------------------------------*/
 .phonetic-div {
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .phonetic {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -317,6 +318,7 @@ footer {
     border-radius: 4px;
     background-color: transparent;
     padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .phonetic-input:hover,
@@ -363,7 +365,7 @@ footer {
 }
 
 
-/*------------------------------------FIRST MAIN SECTION-----------------------------------*/
+/*-----------------------FIRST MAIN  SECTION-----------------------------------*/
 
 .main-section {
     max-width: 1600px;
@@ -775,6 +777,11 @@ footer {
     text-align: center;
 }
 
+.modal-close-btn-icon:hover, .modal-close-btn-icon:focus {
+    fill: var(--sending);
+}
+
+
 .modal-top-text {
     font-style: normal;
     font-weight: 700;
@@ -851,8 +858,9 @@ footer {
     width: 18px;
     height: 18px;
     left: 12px;
-    top: 11px;
+    top: 45%;
     fill: currentColor;
+    transform: translateY(-50%);
 }
 
 .modal-input:hover,
@@ -869,7 +877,7 @@ footer {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    padding: 10px 32px;
+    padding: 10px 55px;
     border-radius: 4px;
     border: none;
     margin-top: 30px;
